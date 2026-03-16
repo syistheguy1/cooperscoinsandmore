@@ -1,25 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Cooper's Coins & Art</title>
 
 <style>
 
 body{
-font-family: Arial;
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+color:white;
 text-align:center;
 background-image:url("background.jpg");
 background-size:cover;
-background-repeat:no-repeat;
-color:white;
+background-position:center;
+background-attachment:fixed;
 }
 
+/* NAV MENU */
+
 .menu{
-background:rgba(0,0,0,0.6);
+background:rgba(0,0,0,0.75);
 padding:15px;
+position:sticky;
+top:0;
 }
 
 .menu a{
@@ -34,28 +40,55 @@ font-weight:bold;
 color:gold;
 }
 
+/* LOGO */
+
 .logo{
-width:420px;
-margin-top:20px;
+width:300px;
+margin-top:30px;
+filter: drop-shadow(0px 8px 12px rgba(0,0,0,0.7));
+}
+
+/* CONTENT BOX */
+
+.box{
+background:rgba(0,0,0,0.65);
+padding:30px;
+margin:40px auto;
+width:80%;
+max-width:900px;
+border-radius:12px;
+}
+
+/* COIN IMAGES */
+
+.coin{
+width:220px;
+margin:15px;
+border:4px solid gold;
+border-radius:10px;
+box-shadow:0px 5px 15px rgba(0,0,0,0.6);
+}
+
+/* MOBILE */
+
+@media (max-width:700px){
+
+.menu a{
+display:block;
+margin:10px;
 }
 
 .coin{
-width:200px;
-margin:10px;
-border:4px solid gold;
-border-radius:10px;
+width:90%;
 }
 
-.box{
-background:rgba(0,0,0,0.6);
-padding:20px;
-margin:20px auto;
-width:70%;
-border-radius:10px;
+.logo{
+width:220px;
+}
+
 }
 
 </style>
-
 </head>
 
 <body>
@@ -66,21 +99,24 @@ border-radius:10px;
 <a href="contact.html">Contact Cooper</a>
 </div>
 
-<img class="logo" src="logo.png">
+<img class="logo" src="logo.png" alt="Cooper's Coins and Art Logo">
 
 <div class="box">
 
-<h2>Welcome to Cooper's Coins & Art</h2>
+<h1>Welcome to Cooper's Coins & Art</h1>
 
-<p>A young collector sharing coins, creativity, and original artwork.</p>
+<p>
+A young collector sharing coins, creativity, and original artwork.
+</p>
 
-<img class="coin" src="coin1.jpg">
-<img class="coin" src="coin2.jpg">
+<img class="coin" src="coin1.jpg" alt="Coin 1">
+<img class="coin" src="coin2.jpg" alt="Coin 2">
 
-<p>New coins and artwork added regularly!</p>
+<p>
+New coins and artwork added regularly!
+</p>
 
 </div>
 
 </body>
-
 </html>
