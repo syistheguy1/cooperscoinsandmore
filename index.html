@@ -19,7 +19,7 @@ background-position:center;
 background-attachment:fixed;
 }
 
-/* NAV MENU */
+/* MENU */
 
 .menu{
 background:rgba(0,0,0,0.75);
@@ -43,7 +43,7 @@ color:gold;
 /* LOGO */
 
 .logo{
-width:300px;
+width:260px;
 margin-top:30px;
 filter: drop-shadow(0px 8px 12px rgba(0,0,0,0.7));
 }
@@ -59,14 +59,20 @@ max-width:900px;
 border-radius:12px;
 }
 
-/* COIN IMAGES */
+/* BUTTON */
 
-.coin{
-width:220px;
-margin:15px;
-border:4px solid gold;
-border-radius:10px;
-box-shadow:0px 5px 15px rgba(0,0,0,0.6);
+.mainBtn{
+background:gold;
+border:none;
+padding:14px 28px;
+font-size:18px;
+cursor:pointer;
+border-radius:8px;
+margin-top:20px;
+}
+
+.mainBtn:hover{
+background:#ffd700;
 }
 
 /* MOBILE */
@@ -78,12 +84,8 @@ display:block;
 margin:10px;
 }
 
-.coin{
-width:90%;
-}
-
 .logo{
-width:220px;
+width:200px;
 }
 
 }
@@ -96,7 +98,7 @@ width:220px;
 <div class="menu">
 <a href="index.html">Home</a>
 <a href="collection.html">My Collection</a>
-<a href="contact.html">Contact Cooper</a>
+<a href="contact.html">Order / Contact</a>
 </div>
 
 <img class="logo" src="logo.png" alt="Cooper's Coins and Art Logo">
@@ -109,10 +111,11 @@ width:220px;
 A young collector sharing coins, creativity, and original artwork.
 </p>
 
-<img class="coin" src="coin1.jpg" alt="Coin 1">
-<img class="coin" src="coin2.jpg" alt="Coin 2">
+<a href="collection.html">
+<button class="mainBtn">View My Coin Collection</button>
+</a>
 
-<p>
+<p style="margin-top:20px;">
 New coins and artwork added regularly!
 </p>
 
