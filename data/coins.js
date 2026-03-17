@@ -1,0 +1,33 @@
+const coins = [
+
+{ name: "Coin", image: "IMG_20260316_175759_HDR.jpg" },
+{ name: "Coin", image: "IMG_20260316_175814_HDR.jpg" },
+{ name: "Coin", image: "IMG_20260316_180213_HDR.jpg" },
+{ name: "Coin", image: "IMG_20260316_180226_HDR.jpg" },
+{ name: "Coin", image: "IMG_20260316_180407_HDR.jpg" },
+{ name: "Coin", image: "IMG_20260316_180432_HDR.jpg" },
+{ name: "Coin", image: "IMG_20260316_180531_HDR.jpg" },
+{ name: "Coin", image: "IMG_20260316_181023_HDR.jpg" },
+{ name: "Coin", image: "IMG_20260316_181237_HDR.jpg" },
+{ name: "Coin", image: "IMG_20260316_181617_HDR.jpg" },
+{ name: "Coin", image: "IMG_20260316_181737_HDR.jpg" },
+{ name: "Coin", image: "IMG_20260316_181933_HDR.jpg" },
+{ name: "Coin", image: "IMG_20260316_182023_HDR.jpg" },
+{ name: "Coin", image: "IMG_20260316_182606_HDR.jpg" },
+{ name: "Coin", image: "IMG_20260316_183111_HDR.jpg" },
+{ name: "Coin", image: "IMG_20260316_183152_HDR.jpg" },
+{ name: "Coin", image: "IMG_20260316_185322_HDR.jpg" },
+{ name: "Coin", image: "IMG_20260316_185405_HDR.jpg" },
+{ name: "Coin", image: "IMG_20260316_185416_HDR.jpg" },
+{ name: "Coin", image: "IMG_20260316_185809_HDR.jpg" },
+{ name: "Coin", image: "IMG_20260316_185820_HDR.jpg" },
+{ name: "Coin", image: "IMG_20260316_190256.jpg" },
+{ name: "Coin", image: "IMG_20260316_190305_HDR.jpg" },
+{ name: "Coin", image: "IMG_20260316_194038_HDR.jpg" },
+{ name: "Coin", image: "IMG_20260316_194110_HDR.jpg" },
+{ name: "Coin", image: "IMG_20260316_194650.jpg" },
+{ name: "Coin", image: "IMG_20260316_194713.jpg" },
+{ name: "Coin", image: "IMG_20260316_195059_HDR.jpg" },
+{ name: "Coin", image: "IMG_20260316_195121_HDR.jpg" }
+
+];
